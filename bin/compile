@@ -12,3 +12,4 @@ cd $build_dir
 
 head "Building webpack bundle"
 NODE_ENV=production $(npm bin)/webpack -p --config webpack.prod.config.js
+npm run prod-serve
